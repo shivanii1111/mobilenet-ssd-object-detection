@@ -122,12 +122,4 @@ Press `ESC` to quit the video/camera preview.
 - `iouThreshold` — lower it for more aggressive suppression of overlapping
   boxes; raise it to keep more overlapping boxes (useful for crowded scenes).
 
-## Notes / extensions you could add
-- Swap `DNN_BACKEND_OPENCV` / `DNN_TARGET_CPU` for CUDA or OpenVINO backends
-  if built with those enabled, to compare latency numbers.
-- Batch multiple images through the same `net.forward()` call to measure
-  throughput vs. single-frame latency.
-- Add class-agnostic NMS as an alternate mode by removing the
-  `classId` check inside `customNMS`.
-- Log latency to CSV to plot p50/p95 over a video for a more rigorous
-  benchmark than a single average.
+
