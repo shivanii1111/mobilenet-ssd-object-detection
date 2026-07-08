@@ -121,4 +121,3 @@ Press `ESC` to quit the video/camera preview.
   to catch more (weaker) detections.
 - `iouThreshold` — lower it for more aggressive suppression of overlapping
   boxes; raise it to keep more overlapping boxes (useful for crowded scenes).
-
