@@ -2,4 +2,5 @@ build/
 models/*.caffemodel
 *.jpg
 *.mp4
-output.jpg
+!results/*.jpg
+!results/*.gif
